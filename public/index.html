@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wallet Balance</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Wallet Balance</h1>
+    <div class="search-container">
+      <input type="text" id="wallet-input" placeholder="Enter your public key">
+      <button id="search-btn">Search</button>
+    </div>
+    <div class="tables-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Token 1</th>
+            <th>Balance</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>USDC</td>
+            <td id="usdc-balance"></td>
+          </tr>
+          <tr>
+            <td>ETH</td>
+            <td id="eth-balance"></td>
+          </tr>
+          <tr>
+            <td>USDT</td>
+            <td id="usdt-balance"></td>
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <thead>
+          <tr>
+            <th>Token</th>
+            <th>Transfer Volume</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>USDC</td>
+            <td id="usdc-balance-2"></td>
+          </tr>
+          <tr>
+            <td>ETH</td>
+            <td id="eth-balance-2"></td>
+          </tr>
+          <tr>
+            <td>USDT</td>
+            <td id="usdt-balance-2"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
