@@ -1,3 +1,7 @@
+// --------------------------------------------------------------------
+// --------------------------- Testing File ---------------------------
+// --------------------------------------------------------------------
+
 const theblockchainapi = require('theblockchainapi');
 
 let defaultClient = theblockchainapi.ApiClient.instance;
